@@ -29,14 +29,14 @@ cart.forEach((cartItem) => {
         Delete
       </button>
     </div>
-  `
+  `;
 });
 
 if(cart.length!=0){
   headingElement.innerHTML='Selected Books';
   cartContainer.innerHTML=cartHTML;
 }else{
-  cartContainer.innerHTML='No books selected'
+  cartContainer.innerHTML='No books selected';
   headingElement.innerHTML='';
 }
 

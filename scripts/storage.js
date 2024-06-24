@@ -34,7 +34,7 @@ books.forEach((book) => {
         </button>
       </div>
     </div> 
-    `
+    `;
 });
 
 document.querySelector('.js-book-grid')
