@@ -1,0 +1,106 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-left{
+  width: 180px;
+  margin-left: 10px;
+}
+
+.home-link-button{
+  width: 80px;
+  height: 25px;
+}
+
+.header-middle{
+  display: flex;
+  margin-left: 10px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.header-right{
+  width: 180px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+}
+
+.search-bar {
+  width: 180px;
+  font-size: 16px;
+  height: 28px;
+  padding-left: 15px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-button {
+  border: none;
+  width: 45px;
+  height: 34px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.search-icon {
+  height: 22px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+.book-grid{
+  display: grid;
+  grid-template-columns:repeat(6,1fr);
+}
+
+.book-rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.book-rating-stars {
+  width: 100px;
+  margin-right: 6px;
+}
+
+.book-rating-count {
+  color: rgb(1, 124, 182);
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.add-book-button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.added{
+  color: rgb(6, 125, 98);
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  opacity: 0;
+}
+
+.added-image{
+  height: 20px;
+  margin-right: 7px;
+}
+
+.visible-added{
+  opacity: 1;
+}
