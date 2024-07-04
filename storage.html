@@ -7,28 +7,11 @@
     <link rel="stylesheet" href="styles/general.css">
   </head>
   <body>
-    <div class="header">
-      <div class="header-left">
-        <a href="home.html">
-          <button class="home-link-button">Home</button>
-        </a>
-      </div>
+    <div class="header js-header"> </div>
 
-      <div class="header-middle">
-        <h1>Books</h1>
-      </div>
+    <div class="book-grid js-book-grid"></div>
 
-      <div class="header-right">
-        <input class="search-bar" type="text" placeholder="Search">
-
-        <button class="search-button">
-          <img class="search-icon" src="images/icons/search-icon.png"
-        </button>
-      </div>
-    </div>
-    <div class="book-grid js-book-grid">
-    </div>
-
-    <script type="module" src="scripts/storage.js"></script>
+    <script src="scripts/storageHeader.js"></script>
+    <script src="scripts/storage.js" type="module"></script>
   </body>
 </html>
